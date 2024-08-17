@@ -3,3 +3,4 @@
 *.log
 testenv
 __pycache__
+dist
