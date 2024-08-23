@@ -4,3 +4,4 @@
 testenv
 __pycache__
 dist
+os_settings.py
