@@ -4,7 +4,7 @@ build-backend = "hatchling.build"
 
 [project]
 name = "OpenSolve"
-version = "0.0.2"
+version = "0.0.4"
 authors = [
 	{ name="Greg Hauser", email="greg@open-solve.com" },
 ]
@@ -22,8 +22,7 @@ classifiers = [
 
 [tool.hatch.build.targets.sdist]
 include = [
-	"src/OpenSolve/Client.py",
-	"src/OpenSolve/randomNames.py"
+	"src/OpenSolve/Client.py"
 ]
 
 [tool.hatch.build.targets.wheel]
