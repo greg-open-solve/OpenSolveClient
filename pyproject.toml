@@ -26,6 +26,9 @@ include = [
 	"src/OpenSolve/randomNames.py"
 ]
 
+[tool.hatch.build.targets.wheel]
+packages = ["src/OpenSolve"]
+
 [project.urls]
 Homepage = "https://open-solve.com"
 Issues = "https://github.com/greg-open-solve/OpenSolveClient"
